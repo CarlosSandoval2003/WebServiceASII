@@ -11,8 +11,8 @@ const port = 3000;
 // Configurar la conexión a la base de datos MySQL
 const pool = mysql.createPool({
   host: 'localhost',
-  user: 'jawicho',
-  password: 'jawicho123',
+  user: '',
+  password: '',
   database: 'tienda',
 });
 
